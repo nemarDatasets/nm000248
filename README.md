@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000248-blue)](https://doi.org/10.82901/nemar.nm000248)
+
 # BigP3BCI Study L — 6x6 multi-paradigm (11 ALS subjects)
 
 BigP3BCI Study L — 6x6 multi-paradigm (11 ALS subjects).
