@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study L — 6x6 multi-paradigm (11 ALS subjects)",
-  "description": "This derivative dataset comprises EEG recordings from 11 ALS patients participating in the BigP3BCI Study L, a multi-paradigm P300-based brain-computer interface investigation. The study employed a 6x6 character grid speller paradigm with 16-channel EEG recordings sampled at 256 Hz, designed to evaluate visual perception and target detection in a clinical population. This dataset represents a subset of the larger BigP3BCI initiative, the most comprehensive public P300 BCI dataset containing recordings from approximately 267 subjects across 20 studies.",
-  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 16 channels arranged in a standard 10-20 montage, sampled at 256 Hz with a 60 Hz line frequency. The experimental protocol employed a P300 paradigm using a 6x6 character grid speller with visual stimulus presentation. Each trial had a duration of 1.0 second, with events classified as Target or NonTarget stimuli. A calibration-then-test cross-validation approach was used for within-subject evaluation, with online feedback provided during the BCI application.",
+  "description": "This dataset comprises EEG recordings from 11 ALS patients performing a P300-based brain-computer interface speller task using a 6x6 character grid. The study is part of the BigP3BCI project, the largest public P300 BCI dataset, and includes 16-channel EEG data sampled at 256 Hz with visual stimulus presentations and target/non-target event classifications. Data were collected in a laboratory setting with online feedback to support BCI-based communication applications.",
+  "methods_description": "EEG data were acquired using a g.USBamp amplifier (g.tec) with 16 channels arranged in a standard 10-20 montage at a sampling rate of 256 Hz with 60 Hz line frequency filtering. Participants performed a P300 speller task with a 6x6 character grid, with visual stimuli presented and responses classified as Target or NonTarget events over a trial interval of 0-1.0 seconds.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -22,16 +22,16 @@
   },
   "keywords": [
     {
-      "term": "E1A-Associated p300 Protein",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D050881"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
       "term": "EEG"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "ALS"
     },
     {
       "term": "Event-Related Potentials, P300",
@@ -40,17 +40,22 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "Amyotrophic Lateral Sclerosis",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000690"
-    },
-    {
       "term": "Visual Perception",
       "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
+      "term": "Amyotrophic Lateral Sclerosis",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000274"
+    },
+    {
       "term": "speller paradigm"
+    },
+    {
+      "term": "derivative"
     }
   ],
   "related_identifiers": [
@@ -97,5 +102,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "e9d7fd91247c14bb432865640a0bc5e05822df41d6d65f8c707a58c583c04e5c"
+  "source_hash": "b78bb2a0d17996b6c9db5189519e410ea8d736dc6dba3402875cc8104f661049"
 }
