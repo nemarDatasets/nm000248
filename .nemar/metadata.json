@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study L — 6x6 multi-paradigm (11 ALS subjects)",
-  "description": "This dataset contains EEG recordings from 11 participants with amyotrophic lateral sclerosis (ALS) performing a P300-based brain-computer interface speller task with a 6x6 character grid (Study L of the BigP3BCI collection). Data were recorded from 16 EEG channels at 256 Hz with a g.USBamp amplifier. Target and non-target flashes are annotated with HED tags. The dataset is a BIDS derivative of the BigP3BCI collection on PhysioNet, prepared for benchmarking with MOABB.",
-  "methods_description": "EEG was recorded from 16 channels in a standard 10-20 montage using a g.USBamp (g.tec) at 256 Hz, with 60 Hz line frequency. Participants performed a P300 speller task with a 6x6 grid and online feedback in a laboratory setting. A calibration-then-test scheme was used, with events labelled Target and NonTarget.",
+  "description": "This dataset contains 16-channel EEG recordings from 11 participants with amyotrophic lateral sclerosis (ALS) performing a P300-based brain-computer interface speller task. The task used a 6x6 character grid with multiple stimulus paradigms, with target and non-target flashes as events. It is Study L of the larger bigP3BCI collection, which comprises about 267 subjects across 20 studies, and is distributed here as a BIDS derivative converted with MOABB.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier (g.tec) at 256 Hz from 16 channels placed according to the standard 10-20 montage. Each participant completed one session of a visual P300 speller on a 6x6 grid with online feedback in a laboratory setting. Events were annotated as Target or NonTarget using HED 8.4.0 tags, with a 1.0 s trial interval.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -89,5 +89,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "b78bb2a0d17996b6c9db5189519e410ea8d736dc6dba3402875cc8104f661049"
+  "source_hash": "bc92fac022a9f5cab71f5c32f5a18c9739cc8e881f749808dacc2a2389ae075a"
 }
